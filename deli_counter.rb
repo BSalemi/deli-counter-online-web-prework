@@ -1,14 +1,13 @@
 # Write your code here.
 def line(array)
-  "The line is currently:"
+  current_line = "The line is currently:"
   if array.length > 0
     array.each_with_index do |array, index|
-      + "#{index + 1}. #{array}"
+    current_line  + "#{index + 1}. #{array}"
   end
   else
     puts "The line is currently empty."
   end
-  puts "The line is currently:" + "#{index + 1}. #{array}"
 end
 
 def take_a_number(array, name)
