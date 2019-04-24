@@ -3,10 +3,10 @@ def line(array)
   current_line = "The line is currently:"
   if array.length > 0
     array.each_with_index do |array, index|
-    new_line = current_line  + "#{index + 1}. #{array}"
+    current_line = current_line  + "#{index + 1}. #{array}"
   end
   else
-    puts new_line
+    puts current_line
   end
 end
 
