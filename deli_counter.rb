@@ -5,8 +5,9 @@ def line(array)
     array.each_with_index do |array, index|
     my_string + "#{index + 1}. #{array}"
   end
+  puts my_string
   else
-    puts my_string
+    puts "The line is currently empty."
   end
 end
 
