@@ -3,7 +3,7 @@ def line(array)
   my_string = "The line is currently:"
   if array.length > 0
     array.each_with_index do |array, index|
-    my_string += "#{index + 1}. #{array}"
+    my_string += " #{index + 1}. #{array}"
   end
   puts my_string
   else
