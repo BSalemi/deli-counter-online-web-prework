@@ -1,11 +1,9 @@
 # Write your code here.
 def line(array)
-current_line = ["The line is currently:"]
   if array.length > 0
     array.each_with_index do |array, index|
-    current_line << "#{index + 1}. #{array}"
+"The line is currently:" + "#{index + 1}. #{array}"
   end
-  puts current_line.join(" ")
   else
     puts "The line is currently empty."
   end
