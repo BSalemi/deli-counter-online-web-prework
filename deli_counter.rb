@@ -1,5 +1,5 @@
 # Write your code here.
-def line(array = "katz_deli")
+def line(array)
   if array.length > 0
     array.each_with_index do |array, index|
     puts "The line is currently: #{index + 1}. #{array}"
