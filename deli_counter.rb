@@ -5,10 +5,10 @@ current_line = ["The line is currently:"]
     array.each_with_index do |array, index|
       current_line << "#{index + 1}. #{array}"
   end
+  puts current_line
   else
     puts "The line is currently empty."
   end
-    puts current_line
 end
 
 def take_a_number(array, name)
