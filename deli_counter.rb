@@ -8,7 +8,7 @@ def line(array)
   else
     puts "The line is currently empty."
   end
-  puts "The line is currently:"  
+  puts "The line is currently:"
 end
 
 def take_a_number(array, name)
