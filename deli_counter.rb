@@ -1,9 +1,9 @@
 # Write your code here.
 def line(array)
-  puts "The line is currently:"
+  puts "The line is currently:" +
   if array.length > 0
     array.each_with_index do |array, index|
-      puts  + "#{index + 1}. #{array}"
+       "#{index + 1}. #{array}"
   end
   else
     puts "The line is currently empty."
