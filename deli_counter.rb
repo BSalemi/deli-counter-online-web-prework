@@ -1,7 +1,9 @@
 # Write your code here.
 def line(array = "katz_deli")
   if array.length > 0
-    puts "The line is currently: 1. #{array[0]} 2. #{array[1]} 3. #{array[2]}"
+    array.each_with_index do |array, index|
+    puts "The line is currently: #{index + 1}. #{array}"
+  end 
   else
     puts "The line is currently empty."
   end
