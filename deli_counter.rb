@@ -3,7 +3,7 @@ def line(array)
   puts "The line is currently:" +
   if array.length > 0
     array.each_with_index do |array, index|
-       "#{index + 1}. #{array}"
+    puts "#{index + 1}. #{array}"
   end
   else
     puts "The line is currently empty."
