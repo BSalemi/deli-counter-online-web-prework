@@ -3,7 +3,7 @@ def line(array)
   current_line = "The line is currently:"
   if array.length > 0
     array.each_with_index do |array, index|
-    current_line = current_line  + "#{index + 1}. #{array}"
+      + "#{index + 1}. #{array}"
   end
   else
     puts current_line
